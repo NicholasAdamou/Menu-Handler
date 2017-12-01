@@ -2,7 +2,7 @@ package Menu;
 
 public enum MenuType
 {
-	MAIN("Main Menu"), WITHDRAWAL("Widthdrawal Menu");
+	MAIN("Main Menu"), SUB("Sub Menu");
 
 	private String title;
 
