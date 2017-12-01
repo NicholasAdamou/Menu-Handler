@@ -13,7 +13,7 @@ public abstract class State
 		this.key = key;
 		this.menu = menu;
 		this.sManager = sManager;
-		
+
 		init();
 	}
 
