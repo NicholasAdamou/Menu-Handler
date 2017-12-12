@@ -19,16 +19,7 @@ public class MainMenu extends State
     @Override
     public void init()
     {
-        menu.add(new Option(1, "Option 1")
-        {
-            @Override
-            public void action()
-            {
-
-            }
-        });
-
-        menu.add(new Option(4, "Exit")
+        menu.add(new Option(1, "Exit")
         {
             @Override
             public void action()
